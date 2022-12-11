@@ -1,9 +1,9 @@
 use clap::Parser;
-use sorted_tf_idf_list::cli_parser::CliParser;
-use sorted_tf_idf_list::document::Document;
-use sorted_tf_idf_list::tf_idf;
 use std::collections::HashMap;
 use std::time::Instant;
+use tf_idf::cli_parser::CliParser;
+use tf_idf::document::Document;
+use tf_idf::tf_idf;
 
 fn get_tfidf_scores() {
     // Get CLI arguments.
