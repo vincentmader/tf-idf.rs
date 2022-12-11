@@ -1,0 +1,18 @@
+* tf-idf.rs
+
+Create term-frequency-inverse-document-frequency datasets from text documents via Rust.
+
+*Usage*:
+Execute the binary `./bin/sorted-tf-idf-list` with the following arguments:
+- paths to input documents
+- path to output file (JSON)
+
+The output file will contain the tf-idf value for all input documents, and all terms found in them.
+
+The terms are cleaned up first to remove irrelevant characters like punctuation/parentheses etc.
+
+*Example*:
+#+begin_src shell
+./bin/sorted-tf-idf-list <path_to_file_1> <path_to_file_2> <path_to_file_3> <path_to_output_file>
+#+end_src
+
