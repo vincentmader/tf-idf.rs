@@ -1,0 +1,4 @@
+#!/bin/sh
+
+    [ -d ../data/ ] || mkdir -p ../data/
+    [ -d ../plots/ ] || mkdir -p ../plots/
