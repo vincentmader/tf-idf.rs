@@ -13,6 +13,6 @@ The terms are cleaned up first to remove irrelevant characters like punctuation/
 
 *** Example
 #+begin_src shell
-./bin/sorted-tf-idf-list <path_to_file_1> <path_to_file_2> <path_to_file_3> <path_to_output_file>
+./bin/sorted-tf-idf-list "path_to_file_1" "path_to_file_2" "path_to_file_3" "path_to_output_file"
 #+end_src
 
